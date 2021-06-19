@@ -109,6 +109,7 @@ export class MainPanel extends Component {
             );
         });
 
+         
         if (index === -1) {
             const newListener = { id, ref, event };
             this.setState({
